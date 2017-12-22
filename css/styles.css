@@ -1,0 +1,566 @@
+/*==================================================
+|                   HOME STYLE SHEET               |
+==================================================*/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+
+/*-----Home Animation Styles-----*/
+
+
+/*#anim-cont {
+    height: auto;
+    width: 100%;
+    overflow: hidden;
+    background-color: grey;
+}
+
+#backdrop {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #5D6D7E;
+    z-index: 1;
+    overflow: hidden;
+}
+
+#slider {
+    height: 299px;
+    height: 37%;
+    width: 100%;
+    background-color: #F7F9F9;
+    z-index: 2;
+    position: absolute;
+    animation-name: slide;
+    animation-delay: 2s;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    overflow: hidden;
+}
+
+@keyframes slide {
+    from {
+        top: 0px;
+    }
+    to {
+        top: 299px;
+        top: 37%;
+    }
+}*/
+
+
+/*
+#background {
+    height: 100%;
+}
+
+#background img {
+    background-image: url(../img/intro.JPG);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: 3;
+}
+*/
+
+
+/* Code used from W3 Schools -- "HOW TO - Full Page Image" */
+
+.background {
+    background-image: url("../img/intro.JPG");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
+    opacity: 0.75;
+    margin-bottom: 5px;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 42%;
+    width: 100%;
+    text-align: center;
+}
+
+.caption span.border {
+    font-family: 'Open Sans', sans-serif;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    letter-spacing: 10px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+.arrow {
+    position: absolute;
+    left: 0;
+    top: 70%;
+    width: 100%;
+    text-align: center;
+}
+
+.arrow a {
+    color: white;
+}
+
+.arrow a:hover {
+    color: white;
+}
+
+
+/*-----End of Home Animation Styles-----*/
+
+
+/*-----Header Nav Styles------*/
+
+header {
+    width: 100vw;
+    line-height: 55px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0em;
+    z-index: 2;
+}
+
+.sticky {
+    top: 0;
+    position: fixed;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+}
+
+.close-head {
+    width: 0;
+}
+
+#a1 {
+    width: 25vw;
+    background-color: #3498DB;
+}
+
+#a2 {
+    width: 25vw;
+    background-color: #48C9B0;
+    /*background-color: #76D7C4;*/
+}
+
+#a3 {
+    width: 25vw;
+    background-color: #9B59B6;
+}
+
+#a4 {
+    width: 25vw;
+    background-color: #C0392B;
+}
+
+#a1 a:hover {
+    color: white;
+    background-color: #1B4F72;
+}
+
+#a2 a:hover {
+    color: white;
+    background-color: #0E6251;
+}
+
+#a3 a:hover {
+    color: white;
+    background-color: #512E5F;
+}
+
+#a4 a:hover {
+    color: white;
+    background-color: #641E16;
+}
+
+header nav ul li a {
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+}
+
+
+/*-----End of Header Nav Styles-----*/
+
+
+/*-----Body Container Styles-----*/
+
+body {
+    height: 100%;
+}
+
+
+/*Generic Clearfix*/
+
+.clear-fix:after {
+    content: '';
+    display: block;
+    clear: both;
+    height: 0;
+    font-size: 0;
+    visibility: hidden;
+}
+
+#home .container {
+    background-color: #3498DB;
+    width: 100%;
+    height: 90vh;
+    padding-top: 11%;
+    margin: 0 auto;
+    font-size: 0em;
+    font-family: 'Raleway', sans-serif;
+}
+
+#home .container a {
+    color: black;
+    text-decoration: none;
+}
+
+#home .container a:hover {
+    color: white;
+}
+
+#home .cont {
+    width: 90%;
+    /*background-color: grey;*/
+    margin: 0 auto;
+    display: block
+}
+
+#home .thumbnail {
+    vertical-align: top;
+    width: 40%;
+    margin: 10px;
+    display: inline-block;
+    color: white;
+    font-size: 20px;
+}
+
+#home .thumbnail p {
+    margin: 4%;
+}
+
+#home .thumbnail span {
+    font-weight: bold;
+}
+
+#home .thumbnail img {
+    /* Preserve aspect ratio */
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.right {
+    float: right;
+}
+
+
+/*----End of Body Container Styles----*/
+
+
+/* ABOUT STYLES */
+
+#about .container {
+    font-family: 'Raleway', sans-serif;
+    height: 100%;
+    background-color: #48C9B0;
+    font-size: 0em;
+    padding-top: 5%;
+    padding-bottom: 10%;
+    margin: 0 auto;
+}
+
+#about .cont {
+    margin: 0 auto;
+    width: 90%;
+    padding-top: 6%;
+}
+
+#about .thumbnail {
+    vertical-align: top;
+    width: 40%;
+    margin: 2%;
+    /*background-color: #999;*/
+    display: inline-block;
+    color: white;
+    font-size: 23px;
+}
+
+#about.thumbnail h2 {
+    margin-top: 3%;
+    margin-left: 3%;
+}
+
+#about .thumbnail h3 {
+    margin-left: 3%;
+}
+
+#about .thumbnail p,
+#about .thumbnail ul {
+    margin: 3%;
+    list-style-type: none;
+}
+
+#about .thumbnail li {
+    margin-left: 30px;
+}
+
+#about h3 {
+    color: grey;
+}
+
+#about .res-cont {
+    width: 100%;
+    margin: 0 auto;
+}
+
+#about .resume {
+    display: inline-block;
+    color: white;
+    border: 2px solid grey;
+    margin: 0 45%;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 25px;
+}
+
+#about .resume a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+#about .resume:hover {
+    background-color: #0E6251;
+    border: 2px solid #0E6251;
+}
+
+#about .resume a:hover {
+    color: white;
+}
+
+footer {
+    background-color: #48C9B0;
+}
+
+
+/*PROJECTS*/
+
+#Projects {
+    height: 70em;
+}
+
+#Projects .container {
+    background-color: #9B59B6;
+    height: 100%;
+    font-size: 0em;
+    padding-top: 10%;
+    padding-bottom: 10px;
+    margin: 0 auto;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+}
+
+#Projects .thumbnail {
+    width: 70vw;
+    height: 28%;
+    margin: 0 auto;
+    margin-top: 2%;
+    padding: 50px 10%;
+    /*background-color: grey;*/
+    display: block;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+}
+
+#Projects .thumbnail:hover {
+    border: 2px solid white;
+}
+
+#Projects .thumb-info {
+    /*background-color: skyblue;*/
+    margin: auto;
+    padding: 5px;
+    width: 50%;
+    height: 280px;
+    color: white;
+    font-size: 20px;
+}
+
+#Projects .thumb-img {
+    /*background-color: yellow;*/
+    height: 280px;
+    width: 280px;
+    height: auto;
+    padding: 10px;
+}
+
+#Projects .left {
+    float: left;
+    text-align: left;
+}
+
+#Projects .right {
+    float: right;
+    text-align: right;
+}
+
+#Projects .thumb-info a {
+    color: white;
+    text-decoration: none;
+}
+
+#Projects .thumb-info p a {
+    color: black;
+}
+
+#Projects .thumb-info p a:hover {
+    color: white;
+}
+
+#Projects .thumb-info a:hover {
+    color: black;
+}
+
+
+/*------Photos styles------*/
+
+#Photos .container {
+    background-color: #C0392B;
+    width: 100%;
+    height: 100%;
+    padding-top: 10%;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+}
+
+#Photos .row {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+#Photos .row .column {
+    display: inline-block;
+    margin: 1px;
+}
+
+#Photos p {
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#Photos p span {
+    color: #641E16;
+    font-weight: 900;
+}
+
+#Photos a img {
+    transition: 0.4s;
+}
+
+#Photos a img:hover {
+    box-shadow: 0 6px 20px 0 rgba(0, 0, 0, 0.19), 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+
+/*----Start of Footer Styles----*/
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #C0392B;
+    margin: 0 auto;
+    line-height: 60px;
+}
+
+#links {
+    text-align: center;
+}
+
+footer a {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    /*color: #3498DB;*/
+}
+
+#links a:hover {
+    color: #641E16;
+}
+
+
+/*----End of Footer Styles----*/
+
+
+/*====================================
+|           MEDIA QUERIES            |
+======================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 995px) {
+    /*At the moment, only projects section is media supported*/
+    #Projects {
+        height: 180vh;
+    }
+    #Projects .thumbnail {
+        display: block;
+        height: 38%;
+    }
+    #Projects .thumbnail:hover {
+        border: 2px solid white;
+    }
+    #Projects .thumb-info {
+        margin: auto;
+        padding: 1%;
+        width: 100%;
+        color: white;
+        font-size: 20px;
+    }
+    #Projects .left {
+        text-align: center;
+    }
+    #Projects .right {
+        text-align: center;
+    }
+    #Projects .thumb-img {
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 767px) {}
